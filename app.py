@@ -9,7 +9,6 @@ import time
 
 app = Flask(__name__)
 
-# サービスの状態を保存
 service_status = {}
 
 # 監視するサービスのリスト
